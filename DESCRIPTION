@@ -1,0 +1,34 @@
+Package: plotFin
+Title: Plot financial graphs
+Version: 0.0.0.9000
+Authors@R: c( 
+ person(given = "Gabriele", family = "Bonvicini", email = "gabriele.bonvicini@usi.ch", role = c("aut")),
+ person(given = "Bianca", family = "Pessot", email =  "bianca.irene.pessot@usi.ch", role = c("aut", "cre")),
+ person(given ="Vehbian", family = "Kraja", email =  "vehbian.kraja@usi.ch", role = c("aut")),
+ person(given ="Matilde", family = "Bergna", email =  "matilde.bergna@usi.ch", role = c("aut"))
+ )
+Description: This package helps users to have quick financial plots with a simple line code, avoiding to download, clean and plot data. 
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    corrplot,
+    dplyr,
+    dygraphs,
+    kableExtra,
+    knitr,
+    PerformanceAnalytics,
+    plotly,
+    purrr,
+    quantmod,
+    readr,
+    sjPlot,
+    stats,
+    tidyquant,
+    TTR,
+    utils,
+    xts,
+    zoo
+URL: https://github.com/gabrielebonvicini/plotFin
+BugReports: https://github.com/gabrielebonvicini/plotFin/issues

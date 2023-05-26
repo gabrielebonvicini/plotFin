@@ -27,13 +27,9 @@ p_unlock()
 ```
 
 ## Description
-`plotFin` allows the user to plot financial data of different types with a simple line of code. The purpose of the package is to simplify the process of creating a 
-plot to makes it as easy and quick as possible. 
-Indeed, in order to do that, you usually have to download the data, clean  and transform them in the desired output, and then plot the data with an appropraite plot, 
-which is able to capture and highlight the main features of what you are displaying. 
-With  `plotFin` all this process is done inside the functions. 
-To explain it with the simplest example, let's consider the `plot.return()` function: you choose the stock you want to plot the time series of the returns, the period 
-from which you want to display them as well as the time frame, and you are done! 
+`plotFin` allows users to plot various types of financial data with just a single line of code. The package aims to streamline the process of creating plots, making it easy and efficient. Typically, creating a plot involves downloading the data, cleaning and transforming it, and then plotting it using an appropriate visualization method that effectively captures the key features of the data. However, `plotFin` automates this entire process within its functions.
+
+To illustrate this with a simple example, let's consider the `plot.return()` You can select the desired stock for which you want to plot the time series of returns, specify the period you want to display, and choose the appropriate time frame. Once these parameters are set, you're good to go! 
 
 ## Useful links 
 - Github: https://github.com/gabrielebonvicini/plotFin

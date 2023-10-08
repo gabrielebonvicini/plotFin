@@ -8,8 +8,8 @@ You can download the 'plotFin' package from github by running the following code
 ``` r
 install.packages("devtools") #if you don't have devtools installed 
 library(devtools) 
-devtools::install_github("gabrielebonvicini/plotFin)
-#1 #run this line only if R asks you if you want to updated packages dependecies
+devtools::install_github("gabrielebonvicini/plotFin")
+1 #run this line only if R asks you if you want to updated packages dependecies
 library(plotFin)
 ```
 After the Third line R can ask you if you want to updates some packages which plotFin depends on. 
